@@ -4,8 +4,6 @@ import sys
 
 from meatgen.generate import generate
 
-EXIT_FAILURE = 1
-
 def main():
     parser = argparse.ArgumentParser(description="Generate passwords from real world phenomena")
 
